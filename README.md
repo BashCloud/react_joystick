@@ -19,7 +19,9 @@ import Joystick from react-joystick
 const joyOptions = {
     mode: 'semi',
     catchDistance: 150,
-    color: 'white'
+    color: 'white',
+    position: {left: '50%', top: '50%'},
+
 }
 
 const containerStyle = {
